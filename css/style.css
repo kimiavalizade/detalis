@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Vazir;
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/Vazirmatn-ExtraBold.ttf');
+}
+
+/* Total  */
+* {
+  box-sizing: border-box;
+}
+body,
+h1 {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+/* Style header */
+header {
+  background-color: #16d3da86;
+  text-align: center;
+}
+
+
+
+body {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.middle1 {
+  background-color:#e73939e7;
+	text-align: center;
+}
+
+.content {
+  padding: 10px 10px;
+}
+
+.side1 {
+  background-color:#ff0101bd;
+	text-align: center;
+}
+
+.side2 {
+  width: 100%;
+  background-color:#a828288e;
+	text-align: center;
+}
+
+.style_topBottom {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.side3 {
+  background-color:#990303af;
+	text-align: center;
+}
+
+.side4 {
+  background-color:#c43131da;
+	text-align: center;
+}
+
+.middle2 {
+  background-color:#b31d5c;
+	text-align: center;
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style footer */
+footer {
+  background-color: #16d3da86;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 800px) {
+  .content{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .middle1 {
+    width: 100%;
+  }
+  .side1 {
+    width: 50%;
+    float: right;
+    padding: 12px 24px
+  }
+  .side2 {
+    width: 50%;
+    float: right;
+    padding: 12px 24px
+  }
+  .side3 {
+    width: 50%;
+    float: right;
+    padding: 12px 24px
+  }
+  .side4 {
+    width: 50%;
+    float: left;
+    padding: 12px 24px
+  }
+  .middle2 {
+    width: 100%;
+  }
+}
